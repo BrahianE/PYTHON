@@ -1,0 +1,9 @@
+""" ejercicio 01
+escribir un programa que pida dos numeros y me de la suma, la resta, la multiplicacion, la division y modulo
+"""
+var1 = float(input("escribir un nro: "))
+var2 = float(input("escriba un nmro: "))
+suma = var1 +  var2
+print(f"la suma es : (suma)")
+resta = var1 - var2
+print(f"la resta es : (resta)
