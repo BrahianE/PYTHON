@@ -1,0 +1,25 @@
+"""
+calcular el primero y area de un triangulo
+"""
+import math
+#funcion para calcular el perimetro de un triaungulo
+codeium:refactor
+def perimetro_triangulo(lado1, lado2, lado3):
+    return lado1 + lado2 + lado3
+
+
+def area_triangulo(lado1, lado2, lado3):
+    s = (lado1 + lado2 + lado3) / 2
+    return math.sqrt(s + (s - lado1)* (s - lado2) *(s - lado3))
+
+def main():
+    lado1 = float(input("lado1:"))
+    lado2 = float(input("lado2:"))
+    lado3 = float(input("lado 3:"))
+    print(f"perimetro de un triangulo es : {perimetro_triangulo(lado1,lado2,lado3):.2f}")
+    print(f"area de un triangulo es : {area_triangulo(lado1,lado2,lado3):.2f}")  
+else:
+    print("no es un triangulo")
+    
+if __name__== "__main__":
+   main()    

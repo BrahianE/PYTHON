@@ -1,0 +1,20 @@
+import math
+
+def perimetro_cuadrado(lado):
+    return 4 * lado
+
+def area_cuadrado(lado):
+    return lado * lado
+def area_cuadrado(lado, ancho):
+    return lado * ancho 
+def  main():
+    lado = float(input("lado del rectangulo:"))
+    ancho = float(input("ancho del rectangulo:"))
+    perimetro = perimetro_rectangulo(lado, ancho)
+    area = area_rectangulo(lado, ancho)
+    print(f"el perimetro delrectangulo es :{perimtro:.2f}")
+    print(f"el area del rectangulo es: {area:.2f}")
+    
+if_name    
+        
+                        

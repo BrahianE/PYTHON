@@ -1,0 +1,20 @@
+"""Ejercicio es
+crear una lista que el tamano debe introducir el usuario y que luego se rellene por el usuario
+"""
+
+a
+    = list()
+#print(a)
+tam = int(input("introduce el tamano de la lista:"))
+if tam == 0:
+    tam = 1
+for i in range(tam):
+    a.append(int(input("introduce un valor"))) 
+    print(a) 
+    
+    print(sorted(a)) # funcion para ordenar
+     if 6 in a : # busca si existe el elemnto en la lista
+        print("hay nro6") 
+    else:
+        print("no hay nro6")
+         
