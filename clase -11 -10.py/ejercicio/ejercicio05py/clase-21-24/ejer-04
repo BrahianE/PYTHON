@@ -1,4 +1,0 @@
-"""
-comprobar si la fruta cereza se encuentra en una lista de frutas. en caso afirmativo, imprimir por pantalla el texto cereza si esta en la lista. en caso contrario, imprimir por pantalla el texto cereza NO esta en la lista.
-"""
-frutas ={"kiwi"

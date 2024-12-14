@@ -1,7 +1,0 @@
-"""
-utilizando un bucle for, imprimir cada uno de los caracteres de una cadena de texto por separado.
-"""
-
-texto = "hola mundo"
-for i in texto:
-    print(i)
